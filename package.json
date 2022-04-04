@@ -6,11 +6,12 @@
   "scripts": {
     "test": "jest",
     "lint": "flow && documentation lint index.js",
-    "docs": "documentation build index.js -o docs --config documentation.yml -f html"
+    "docs": "documentation build index.js -o docs --config documentation.yml -f html",
+    "postinstall": "npx jetify"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotintent/react-native-ble-plx.git"
+    "url": "git+https://github.com/HelioGuilherme/react-native-ble-plx.git"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -18,7 +19,7 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
-    "documentation": "^13.0.2",
+    "documentation": "^3.0.4",
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-flowtype": "^5.2.0",
@@ -28,10 +29,11 @@
     "eslint-plugin-react-native": "^3.10.0",
     "flow-bin": "^0.122.0",
     "jest": "^26.6.3",
+    "jetifier": "^2.0.0",
     "metro-react-native-babel-preset": "^0.64.0",
     "prettier": "^2.1.1",
     "react": "16.13.1",
-    "react-native": "0.63.3"
+    "react-native": "^0.63.3"
   },
   "keywords": [
     "React",
@@ -51,7 +53,7 @@
   "author": "Polidea",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/dotintent/react-native-ble-plx/issues"
+    "url": "https://github.com/HelioGuilherme66/react-native-ble-plx/issues"
   },
-  "homepage": "https://github.com/dotintent/react-native-ble-plx#readme"
+  "homepage": "https://github.com/HelioGuilherme66/react-native-ble-plx#readme"
 }
