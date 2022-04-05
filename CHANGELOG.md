@@ -1,3 +1,6 @@
+**2.0.6**
+- Updated MultiplatformBleAdapter to version 0.1.11-rxjava1, build for Android SDK 31
+
 **2.0.5**
 - Updated MultiplatformBleAdapter to version 0.1.10, build for Android SDK 31
 
